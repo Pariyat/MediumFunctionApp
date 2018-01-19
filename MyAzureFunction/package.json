@@ -1,14 +1,15 @@
 {
-  "name": "myazurefunction",
-  "version": "1.0.0",
-  "description": "",
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "nostra": "0.0.7"
+  "express": "^4.13.3",
+  "request": "*",
+	"http": "*",
+	"https": "*"
   }
 }
